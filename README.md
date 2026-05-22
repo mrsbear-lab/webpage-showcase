@@ -4,6 +4,14 @@ A webpage showcasing my computing classes that I teach
 </head>  
 <body>    
 <p id="main-text">This is a unique paragraph.</p>    
+ <style type="text/css">
+  #id1{
+   text-align: center;
+   color: red;
+   font-size: 18px;
+   }
+  </style>
+</body>
 Mrs. Bear's Computer Classes are full of fun and learning!    We learn typing, coding, animation, graphic design, and more!    
 <img src="https://dwscbcy9jc8hm.cloudfront.net/sites/72/comfy/cms/files/102055/files/original/class_descriptions.jpg" alt="Teacher in Computer Lab" width="200" height="100">  
 </body>
