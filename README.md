@@ -20,6 +20,12 @@ h1 {
 color: blue;
 background-color🟡;
 }
+function askStudents() {
+  const choices = ["coding", "animation", "typing"];
+  let favorite = prompt(`What do you like best in computer class? Choose one: ${choices.join(", ")}`);
+
+  return favorite;
+}
 p {
 color: pink;
 } 
