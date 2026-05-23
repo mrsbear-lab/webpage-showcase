@@ -35,7 +35,7 @@ if (choice === "coding") {
 } else if (choice === "animation") {
   console.log("Future Pixar artist!");
 } else if (choice === "typing") {
-  console.log("Speed demon on the keyboard!");
+  console.log("Secretary because I'm a so fast on the keyboard!");
 } else {
   console.log("That option wasn't on the list!");
 }
