@@ -39,6 +39,11 @@ if (choice === "coding") {
 } else {
   console.log("That option wasn't on the list!");
 }
+while (!choices.includes(studentAnswer)) {
+  studentAnswer = prompt("Please choose coding, animation, or typing:");
+}
+
+console.log(`Thank you! You selected: ${studentAnswer}`);
 p {
 color: pink;
 } 
