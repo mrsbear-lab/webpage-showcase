@@ -20,6 +20,7 @@ h1 {
 color: blue;
 background-color🟡;
 }
+<button id="surveyBtn">Take Survey of Favorite Part of Class</button>
 function askStudents() {
   const choices = ["coding", "animation", "typing"];
   let favorite = prompt(`What do you like best in computer class? Choose one: ${choices.join(", ")}`);
