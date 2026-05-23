@@ -28,6 +28,17 @@ const button = document.getElementById("surveyBtn");
   
   alert(`You chose: ${favorite}`);
 });
+const choice = prompt("What do you like best? coding, animation, or typing");
+
+if (choice === "coding") {
+  console.log("Future software engineer!");
+} else if (choice === "animation") {
+  console.log("Future Pixar artist!");
+} else if (choice === "typing") {
+  console.log("Speed demon on the keyboard!");
+} else {
+  console.log("That option wasn't on the list!");
+}
 p {
 color: pink;
 } 
