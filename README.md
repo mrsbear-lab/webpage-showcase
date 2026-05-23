@@ -21,12 +21,13 @@ color: blue;
 background-color🟡;
 }
 <button id="surveyBtn">Take Survey of Favorite Part of Class</button>
-function askStudents() {
+button.addEventListener("click", function() {
+const button = document.getElementById("surveyBtn");
   const choices = ["coding", "animation", "typing"];
-  let favorite = prompt(`What do you like best in computer class? Choose one: ${choices.join(", ")}`);
-
-  return favorite;
-}
+  let favorite = prompt(`What do you like best? ${choices.join(", ")}`);
+  
+  alert(`You chose: ${favorite}`);
+});
 p {
 color: pink;
 } 
